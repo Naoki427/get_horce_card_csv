@@ -1,4 +1,4 @@
-NAME = 出馬表変換
+NAME = csv_maker
 SRC = get_horce_card_csv.go
 
 all :

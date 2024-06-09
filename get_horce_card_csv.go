@@ -14,7 +14,7 @@ import (
 
 func main() {
 	if len(os.Args) != 2 && len(os.Args) != 3{
-		fmt.Println("usage : ./出馬表変換 \"url\" (filename)")
+		fmt.Println("usage : ./csv_maker \"url\" (filename)")
 		return
 	}
 	url := os.Args[1]
